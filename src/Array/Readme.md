@@ -63,4 +63,3 @@ Here's a basic overview of how arrays work in Java:
    int value = matrix[1][2]; // Access the element in the second row and third column (6)
    ```
 
-Remember that arrays in Java have a fixed size once they're created. If you need a more flexible data structure that can grow or shrink dynamically, you might want to consider using Java's `ArrayList` class from the `java.util` package.

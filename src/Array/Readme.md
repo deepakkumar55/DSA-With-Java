@@ -226,3 +226,96 @@ int[] intArray = new int[3]; // All elements are initialized to 0
 boolean[] boolArray = new boolean[2]; // All elements are initialized to false
 Object[] objArray = new Object[5]; // All elements are initialized to null
 ```
+
+
+
+
+
+# ArrayList
+
+`ArrayList` is a dynamic array implementation provided by Java's `java.util` package. Unlike traditional arrays, `ArrayList` can grow or shrink in size dynamically as elements are added or removed. It's one of the most commonly used data structures in Java due to its flexibility and ease of use.
+
+Here's an overview of `ArrayList` in Java:
+
+1. **Importing the ArrayList Class:**
+To use `ArrayList`, you need to import it from the `java.util` package.
+
+```java
+import java.util.ArrayList;
+```
+
+2. **Creating an ArrayList:**
+You can create an `ArrayList` instance by specifying the type of elements it will hold within the angle brackets (`<>`).
+
+```java
+ArrayList<Integer> numbers = new ArrayList<>();
+ArrayList<String> names = new ArrayList<>();
+```
+
+3. **Adding Elements:**
+You can add elements to an `ArrayList` using the `add()` method.
+
+```java
+numbers.add(1);
+numbers.add(2);
+numbers.add(3);
+names.add("Alice");
+names.add("Bob");
+```
+
+4. **Accessing Elements:**
+You can access elements using their index, just like with arrays.
+
+```java
+int firstNumber = numbers.get(0); // Retrieves the element at index 0
+String firstName = names.get(0);
+```
+
+5. **Size of ArrayList:**
+You can get the current number of elements in the `ArrayList` using the `size()` method.
+
+```java
+int numElements = numbers.size();
+```
+
+6. **Removing Elements:**
+You can remove elements by specifying the index or the element itself.
+
+```java
+numbers.remove(1); // Removes the element at index 1
+names.remove("Alice"); // Removes the specified element
+```
+
+7. **Iterating Over an ArrayList:**
+You can use various methods to iterate through the elements of an `ArrayList`, such as using a for-each loop.
+
+```java
+for (Integer num : numbers) {
+    System.out.println(num);
+}
+```
+
+8. **ArrayList vs. Arrays:**
+`ArrayList` provides dynamic sizing, automatic resizing, and various utility methods that make it more versatile than traditional arrays. However, `ArrayList` can be slightly less memory efficient due to overhead associated with dynamic resizing.
+
+9. **ArrayList and Generics:**
+`ArrayList` uses generics to ensure type safety. You specify the type of elements the `ArrayList` will hold when you create an instance.
+
+```java
+ArrayList<Double> doubleList = new ArrayList<>();
+ArrayList<String> stringList = new ArrayList<>();
+```
+
+10. **ArrayList Methods:**
+`ArrayList` provides various methods for adding, removing, querying, and manipulating elements. Some of the commonly used methods include `add()`, `get()`, `remove()`, `size()`, `isEmpty()`, `clear()`, `indexOf()`, `contains()`, `addAll()`, and more.
+
+```java
+ArrayList<Integer> list = new ArrayList<>();
+list.add(10);
+list.add(20);
+int index = list.indexOf(20); // Gets the index of element 20
+boolean contains = list.contains(10); // Checks if 10 is present
+list.clear(); // Removes all elements from the list
+```
+
+`ArrayList` is an essential data structure for managing collections of data where the size might change dynamically. It's important to consider your application's requirements when choosing between traditional arrays and `ArrayList`.

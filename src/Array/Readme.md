@@ -1,4 +1,3 @@
-# ArrayList
 # Array 
 In Java, an array is a data structure that allows you to store a fixed-size sequence of elements of the same type. Arrays are widely used in programming for holding collections of items such as numbers, characters, objects, etc. Each element in an array is accessed by its index, which starts from 0 for the first element and goes up to (length - 1) for the last element.
 

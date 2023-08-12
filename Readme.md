@@ -191,8 +191,3 @@ Algorithms are step-by-step instructions or procedures that solve specific compu
    }
    ```
 
-10. **NP-Completeness and Approximation Algorithms (Introduction to Complexity Theory):**
-   Understanding algorithm complexity and approximations
-
- 
-

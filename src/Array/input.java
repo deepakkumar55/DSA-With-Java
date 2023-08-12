@@ -21,7 +21,7 @@ public class input {
             str[j] = sc.next();
         }
         System.out.print(Arrays.toString(str));
-        str[1]="Vanshika Pagal hai"
+        str[1]="Vanshika Pagal hai";
 
     }
 }

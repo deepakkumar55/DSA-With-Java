@@ -192,8 +192,7 @@ Algorithms are step-by-step instructions or procedures that solve specific compu
    ```
 
 10. **NP-Completeness and Approximation Algorithms (Introduction to Complexity Theory):**
-    Definition: These algorithms deal with
+   Understanding algorithm complexity and approximations
 
- understanding the inherent difficulty of certain problems and finding approximate solutions for complex problems.
-    Example: Introducing the concept of the Traveling Salesman Problem (TSP) and its NP-completeness.
+ 
 

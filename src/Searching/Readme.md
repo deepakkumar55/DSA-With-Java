@@ -1,4 +1,3 @@
-
 ## Search Algorithms:
 
 Search algorithms are techniques used to find a specific element within a data structure, such as an array or a list. There are two main categories of search algorithms: linear search and binary search.

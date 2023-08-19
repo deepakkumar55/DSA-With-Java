@@ -1,5 +1,3 @@
-
-
 # 1. **Data Structures:** 
 These are the ways in which data is organized and stored in a computer's memory. Data structures provide a way to represent and manage data elements and their relationships. Examples of data structures include arrays, linked lists, stacks, queues, trees, graphs, and hash tables. The choice of an appropriate data structure for a specific problem can greatly impact the efficiency of algorithms that operate on that data.
 

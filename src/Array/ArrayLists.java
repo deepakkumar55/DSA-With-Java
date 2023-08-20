@@ -8,7 +8,7 @@ public class ArrayLists {
         Scanner in = new Scanner(System.in);
         // Syntax
         ArrayList<Integer> list = new ArrayList<>(5);
-
+ 
         // list.add(67);
         // list.add(234);
         // list.add(654);

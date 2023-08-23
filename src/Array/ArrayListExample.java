@@ -9,7 +9,7 @@ public class ArrayListExample {
         numbers.add(10);
         numbers.add(20);
         numbers.add(30);
-        numbers.add(40);
+        numbers.add(40); 
 
         // Access elements in the ArrayList
         int firstNumber = numbers.get(0); // Access the element at index 0

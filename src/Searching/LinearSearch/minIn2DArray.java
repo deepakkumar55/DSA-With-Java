@@ -8,6 +8,7 @@ public class minIn2DArray {
         }; 
         System.out.println(min(arr));
     }
+    
 
     static int min(int[][] arr) {
         int min = Integer.MAX_VALUE;

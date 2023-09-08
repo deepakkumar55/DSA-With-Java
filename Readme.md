@@ -13,7 +13,8 @@ These are the ways in which data is organized and stored in a computer's memory.
 2. **Linked Lists:**
    Definition: Linked lists are linear data structures made up of nodes, where each node holds a value and a reference to the next node in the sequence.
    Example:
-   ```java
+   ```
+   java
    class Node {
        int value;
        Node next;

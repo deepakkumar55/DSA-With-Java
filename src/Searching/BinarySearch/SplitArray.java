@@ -14,7 +14,7 @@ public class SplitArray {
             end += nums[i];
         }
 
-        // binary search 
+        // binary search
         while (start < end) {
             // try for the middle as potential ans
             int mid = start + (end - start) / 2;

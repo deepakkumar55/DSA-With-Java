@@ -1,4 +1,4 @@
-package Searching.BinarySearch;
+package com.kunal;
 // https://leetcode.com/problems/split-array-largest-sum/
 public class SplitArray {
     public static void main(String[] args) {

@@ -1,4 +1,5 @@
-package Searching.BinarySearch;
+package com.kunal;
+
 public class Mountain {
     public static void main(String[] args) {
 

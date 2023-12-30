@@ -1,4 +1,4 @@
-package Searching.BinarySearch;
+package com.kunal;
 
 public class Floor {
 

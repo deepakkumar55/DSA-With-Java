@@ -1,4 +1,4 @@
-package Searching.BinarySearch;
+package com.kunal;
 
 public class FirstAndLastPosition {
     public static void main(String[] args) {

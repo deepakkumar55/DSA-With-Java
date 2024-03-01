@@ -10,7 +10,7 @@ public class SwapArrayInString {
         System.out.println(Arrays.toString(arr));
     }
     static void swap(int[] arr, int i,int k){
-        int temp= arr[i];
+        int temp= arr[i]; 
         arr[i]=arr[k];
         arr[k] =temp ;
     }
